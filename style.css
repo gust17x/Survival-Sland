@@ -33,7 +33,7 @@ body{
 
 body::-webkit-scrollbar{
     background-color: black;
-    width: 5px;
+    width: 8px;
 }
 body::-webkit-scrollbar-button{
     background-color: black;
@@ -370,7 +370,7 @@ li{list-style: none;}
     padding: 15px;
     margin: 20px 0;
     border-radius: 20px 20px 0 20px;
-    box-shadow: 2px 2px 7px #333;
+    box-shadow: 2px 2px 7px #111;
 }
 
 .name-user{
@@ -876,6 +876,7 @@ li{list-style: none;}
 .box1-info-p{
     font-size: 1rem;
 } 
+
 /* BOXES */
 
 #box-3, #box-4, #box-6, #box-7{
