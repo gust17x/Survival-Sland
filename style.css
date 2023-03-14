@@ -9,8 +9,8 @@
     position: fixed;
     z-index: 7;
     top: 92%;
-    left: 95%;
-    transition: .2s;
+    left: 96%;
+    transition: 1s;
     border-radius: 10px;
     opacity: 0;
 }
@@ -28,7 +28,7 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    background-color: #111;
+    background-color: #000000;
 }
 
 body::-webkit-scrollbar{
@@ -288,7 +288,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     #box-1 {
-        grid-row: span 2;
+        grid-row: span 1;
     }
 
     #box-2 {
