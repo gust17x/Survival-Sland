@@ -185,7 +185,7 @@ body::-webkit-scrollbar-thumb {
 .boxes{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(7,374px);
+    grid-template-rows: repeat(8,374px);
     grid-gap: 5px;
     padding: 5px;
     transition: 1s;
@@ -429,6 +429,103 @@ body::-webkit-scrollbar-thumb {
 
 /* box - 7  */
 
+/* box - 8 */
+#box-8 {
+    grid-column: span 2;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    height: 70vh;
+}
+
+.box8-info {
+    width: 57%;
+}
+
+.box8-info h1 {
+    font-size: 3em;
+}
+
+.warning {
+    height: 100%;
+    margin-top: 5%;
+}
+.warning a {
+    font-size: 1.4rem;
+}
+.warning h4{
+    color: rgba(255, 0, 0, 0.835);
+    font-size: 2em;
+}
+
+.warning p {
+    margin: 5px 0 30px 0;
+    color: #e1e1e1;
+    font-weight: 500;
+}
+
+
+.bg-alert {
+    position: relative;
+    height: 100%;
+    width: 43%;
+}
+
+
+.bg-alert img {
+    width: 100%;
+    height: 100%;
+}
+
+.tutor {
+    margin-top: 20px;
+}
+
+.tutor h4 {
+    font-size: 1.3em;
+    color: #e1e1e1;
+    font-weight: 400;
+}
+
+.tutor p {
+    margin: 3px 0;
+    font-weight: 300;
+}
+
+@media (max-width: 740px) {
+
+    #box-8 {
+        background-image: url(./imgs/Warning-bro.png);
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+    }
+
+    .bg-alert {
+        display: none;
+    }
+
+    .box8-info {
+        width: 100%;
+        background-color: #222222f3;
+        border-radius: 20px;
+        padding: 1em;
+    }
+
+    .warning h4 {
+        font-size: 1.5em;
+    }
+
+    .box8-info h1 {
+        font-size: 2em;
+    }
+
+    .warning a {
+        font-size: 1rem;
+    }
+
+}
 
 @media (max-width:1024px) {
 
@@ -524,6 +621,7 @@ body::-webkit-scrollbar-thumb {
     padding: 1em 0;
     font-size: 4em;
     text-align: center;
+    margin-top: 20%;
 }
 
 .equipe-container {
