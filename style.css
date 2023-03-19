@@ -134,14 +134,23 @@ body::-webkit-scrollbar-thumb {
 /* link baixa */
 
 .link-baixar {
-    padding: 10px;
-    background: linear-gradient(45deg, #23d11d, green);
+    padding: 12px;
+    text-align: center;
+    background: transparent;
     width: 100px;
     text-align: center;
     margin: 20px 0;
-    color: #fff;
-    box-shadow: 0 0  7px green;
+    color: #23d11d;
+    border: 3px solid #23d11d;
     animation: 3s animBannertext ease-in-out;
+    transition: .2s;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+.link-baixar:hover {
+    background-color: #23d11d;
+    color: #fff;
 }
 
 /* content */
@@ -739,6 +748,7 @@ hr {
 .footer nav h2{
     color: #fff;
     margin: 10px 0;
+    font-weight: 400;
 }
 
 .footer nav ul {
@@ -752,6 +762,7 @@ hr {
 .footer nav ul li a {
     color: #ccc;
     transition: .3s;
+    font-weight: 300;
 }
 
 .footer nav ul li a:hover {
@@ -762,6 +773,7 @@ hr {
 .copy p {
     color: #ccc;
     font-style: italic;
+    font-weight: 300;
 }
 
 
