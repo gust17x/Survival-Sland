@@ -88,7 +88,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     justify-content: flex-end;
     padding: 4%;
-    background: linear-gradient(6deg, #000000, transparent);
+    background: linear-gradient(0deg, #000000, transparent);
 }
 
 .banner-content h1{
